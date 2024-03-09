@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+   *{
+       padding: 0px;
+       margin: 0px;
+       font-family: 'Inter', sans-serif;
+   }
+   .slogo{
+       display: flex;
+        font-size: 18px;
+        font-weight: 400;
+   }
+   .s{
+       height: 25px;
+       width: 20px;
+       border-radius: 5px;
+       color: white;
+       background-color:#00bfb1;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+   }
+   .flaw{
+       display: flex;
+       font-size: 18px;
+       font-weight: 400;
+       margin-top: 50px;
+   }
+   .see{
+       height: 25px;
+       width: 20px;
+       border-radius: 5px;
+       color: white;
+       background-color: #00bfb1;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+   }
+   .navbar{
+       display: flex;
+       justify-content: space-between;
+       padding: 30px 40px;
+       position: sticky;
+       background: white;
+       top: 0px;
+   }
+   .logo{
+       color: #00bfb1;
+       margin-left: 10px;
+       font-weight: bold;
+       
+       
+   }.content{
+       display: flex;
+       align-items: center;
+       margin-left: 400px;
+   }
+   .course{
+       display: flex;
+       /* border: 1px solid black; */
+       padding: 5px 20px;
+       cursor: pointer;
+       position: relative;
+   }
+   .course:hover .dropdown{
+       display: block;
+   }
+   .fore{
+       display: flex;
+       /* border: 1px solid black; */
+       padding: 5px 20px;
+       cursor: pointer;
+       position: relative;
+   }
+   .fore:hover .dropdown{
+       display: block;
+   }
+   .FT{
+       display: flex;
+       /* border: 1px solid black; */
+       padding: 5px 20px;
+       cursor: pointer;
+       position: relative;
+   }
+   .FT:hover .dropdown{
+       display: block;
+   }
+   .login{
+       background: none;
+       font-size: 18px;
+       padding: 6px 12px ;
+       border-color:#1b1642;
+       border-radius: 3px;
+       position: relative;
+       z-index: 1;
+   }
+   .login::after{
+       content:"" ;
+       background-color: #1b1642;
+       width: 0;
+       height: 100%;
+       position: absolute;
+       transition: 0.5s;
+       transform: scaleX(0);
+       transform-origin: top;
+       z-index: -1;
+       top: 0;
+       width: 0;
+   }
+   .login:hover:after{
+       width: 100%;
+       transform: scaleX(0);
+       transform-origin: top;
+   }
+   .take{
+       background: none;
+       font-size: 18px;
+       border: none;
+       background-color: #00bfb1;
+       padding:9px 12px ;
+       
+   }
+   .dropdown{
+       display: none;
+       border-radius: 6px;
+       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.464);
+       padding: 10px 5px;
+       font-size: 20px;
+       border: 1px solid lightgray;
+       background-color: white;
+       position: absolute;
+       width: 250px;
+       top: 40px;
+       
+       
+   }
+   .middle{
+       background-color:RGB(230, 248, 249) ;
+       /* padding-top: 2000px; */
+       /* height: 700px; */
+       width:100%;
+       /* position: relative; */
+   }
+   .fl{
+       display: flex;
+       justify-content: space-between;
+       padding-top: 150px
+    }
+   .women{
+       margin-top: 40px;
+       margin-left: 200px;
+       height: 60px;
+       width: 300px;
+       border: none;
+       /* position: absolute; */
+       background-color:RGB(255, 194, 214) ;
+       display: flex;
+       
+   }
+   .women button{
+        padding: 10px 5px;
+        border: none;
+        background: none;
+        width: 400px;
+   }
+   .women button a{
+       text-decoration: none;
+       font-size: 15px;
+       
+   }
+    .kick{
+        color: rgb(18, 18, 78);
+        /* position: absolute; */
+        /* margin-top: 150px;
+        margin-left: 200px; */
+        font-size: 30px;
+    }  
+    .stut{
+        /* position: absolute; */
+        /* top: 400px;
+        margin-left: 180px; */
+        font-size: 15px;
+        padding-left: 20px;
+        
+    }
+    .on{
+        margin-top: 500px;
+        background-color: #00bfb1;
+        color: #1b1642;
+        margin-left: 200px;
+        font-size: 20px;
+        border: none;
+        height: 40px;
+        width: 200px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .on a{
+        text-decoration: none;
+    }
+    .black{
+        height: 500px;
+        width: 300px; 
+    }
+    .red{
+        margin-top:50px;
+        height: 500px;
+        width: 300px;
+        padding-left:20px;
+    }
+    .cow{
+        display: flex;
+        /* margin-left: 800px; */
+        /* bottom: 200px;
+        top: 100px; */
+        /* position: absolute;    */
+    }
+    .low{
+        background-color: white;
+    }
+    .head{
+        color: #1b1642;
+        font-size: 60px;
+    }
+    .we{
+        font-size: 50px;
+        color: #1b1642;
+        text-align: center;
+    }
+    .mon{
+        color: #00bfb1;
+        font-size: 40px;
+    }
+    .yr{
+        color: #1b1642;
+        text-decoration: line-through;
+        display: inline;
+    }
+    .ref{
+        background-color: #00bfb1;
+        color: #1b1642;
+        height:40px;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    .ref a{
+        text-decoration: none;
+    }
+    .low{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+    }
+    .eni{
+        height: 400px;
+        width: 700px;
+        margin-left: 150px;
+    }
+    .be{
+        margin-top: 100px;  
+    }
+    .ini{
+        margin-top: 100px;
+        
+    }
+    .p{
+        color: grey;
+    }
+    .may{
+        margin-left: 500px;
+        color: 1px solid grey;
+    }
+    .soft{
+        color: #1b1642;
+        font-size: 25px;
+    }
+    .ayo{
+    
+        width: 150px;
+        border: none;
+        border-radius: 100%;
+        transition: 2s;
+    }
+    .ayo:hover{
+        transform: rotate(360deg);
+    }
+    .DIV{
+        display: flex;
+        flex-wrap: wrap;
+        /* padding-left: 100px; */
+        
+    }
+    .yeah{
+        margin: 30px 60px;
+        /* display: flex;
+        justify-content: center;
+        flex-direction: column; */
+        font-size: 15px;
+        width: 250px;
+        text-align: center;
+    }
+    .i{
+        background-color: #1b1642;
+        width: auto;
+        /* padding-top: 100px; */
+        
+    }
+    .been{
+        color: lightgrey;
+        text-align: center;
+        /* padding: 10px 10px; */
+        padding-top: 100px;
+    }
+    .png{
+        width: 100px;
+        border: none;
+        border-radius: 80%;
+    }
+    .silent{
+        color: #00bfb1;
+    }
+    .canva{
+        color: grey;
+    }
+    .loud{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .silas{
+        margin-left: 20px;
+    }
+    .trust{
+        background-color: white;
+        width: auto;
+
+    }
+    .ceo{
+        color: #1b1642;
+        font-size: 40px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .match{
+        text-align: center;
+        color: grey;
+    }
+    /* .client{
+        margin-left: 150px;
+        display: flex;
+        margin-top: 50px;
+    }
+    .bank{
+        margin-left: 200px;
+        display: flex;
+        margin-top: 30px;
+    }
+    .switch{
+        margin-left: 250px;
+        display: flex;
+        margin-top: 20px;
+    } */
+    .logos{
+        margin: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logos div{
+        padding: 5px 20px;
+
+    }
+    .green{
+        background-color: #00bfb1;
+        width: auto;
+        margin: 100px 100px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    .ready{
+        color: #1b1642;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 50px;
+    }
+    .want{
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        
+        padding: 15px;
+        
+    }
+    .hired{
+        background-color: #1b1642;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        
+        padding: 15px;
+        
+    }
+    .both{
+        text-align: center;
+        
+    }
+    .blue{
+        background-color: #1b1642;
+        width:1500px;
+        height: 1500px;
+    }
